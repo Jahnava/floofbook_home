@@ -16,7 +16,6 @@ body{
 
 /* the styles for the header */
 header {
-    border: 0.1px solid darkblue;
     background-color: #385898;
     padding:1em;
 }
@@ -26,70 +25,30 @@ header h2 {
     margin-top: 0;
     color: white;
     font-family:sans-serif;
-    margin-left: 10%;
-    padding-top:1%;
+    margin-left: 7%; 
 }
 
 header h3 {
     font-size: 130%;
 }
 
-/* Style for the input container */
-.topnav .login-container {
-  float: right;
-}
-
-/* Style for the input field inside the navbar */
-.topnav input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 10px;
-  border: none;
-  width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
-}
-
-.topnav input[type=text]:hover {
-background-color: azure;
-}
-
-/* Style for the button inside the input container */
-.topnav .login-container button {
-  float: right;
-  padding: 5px;
-  margin-top: 8px;
-  margin-right: 16px;
-  margin-left: 5px;
-  background: #2a4273;
-  font-size: 12px;
-  border: none;
-  cursor: pointer;
-  border: 0.5px solid black;
-  color:white;
-  font-weight: bold;    
-}
-
-.topnav .login-container button:hover {
-  background: darkblue;
-  border: 0.5px solid black;
-  color:white;
+header img { 
+   float:right;
+   border-radius: 50%;
+    margin-right: 2%;  
 }
 
 /*styles for section*/
 section{
     width: 50%;
     float: right;
-    padding-bottom: 6.5em;
+    padding-bottom: 6em;
     padding-top: 2em;
 }
 
 section h1 {
     font-size: 250%;
 }
-/*
-section h1:first-letter{ 
-    font-size:161%;
-}
-*/
 
 section h2{
      font-size: 130%;
@@ -100,30 +59,38 @@ section h3 {
     font-size:105%;
 }
 
+section p{
+    text-indent: 2%;
+    padding-top: 3px;
+}
+
 section p, li {
     color:#333;
 }
+
+section ul li {
+      text-indent: 20px;
+}
 /*the styles for the aside*/
-aside{
+aside {
     width:40%;    
     margin-left: 10%;
    float:left;
     padding-top: 2em;
 }
 
-.aside-text {
+aside p {
     margin-bottom: 15px;
     margin-top: 5px;
     color:#333;
 }
 
-.aside-title {
+aside h1 {
    font-size:250%; 
 }
 
 
-
-div.polaroid {
+aside figure {
   height: 100%;    
   max-width: 38%;
   background-color: white;
@@ -131,21 +98,18 @@ div.polaroid {
   margin-bottom: 25px;
   float: left;
   margin:5px;
+  text-align: center  
 }
 
-div.polaroid:hover {
+aside figure:hover {
  box-shadow: 5px 10px 8px 10px #888888;
  
 }
 
-div.container {
-  text-align: center;
-  padding: 10px 20px;
-}
-
-.responsive {
+aside p {
+  text-align: left;
   max-width: 100%;
-  height: auto;
+  height: auto;  
 }
 
 /*styles for footer*/
